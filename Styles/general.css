@@ -1,0 +1,33 @@
+:root {
+    --size-btn-collapse: 10.5rem;
+  
+    --color-1: rgba(125, 71, 89, 0.5);
+    --color-2: #fff;
+    --color-3: #7D4759;
+    --color-4: #F2F2F2;
+    --color-5: #129c00;
+    --color-6: #aa1f1f;
+    --color-8: #a0708e;
+    --color-9: #5E353E;
+    --color-10: #7A3746;
+    --color-11: #C47385;
+    --color-12: #f2f2f2;
+    --color-13: #52b3d1;
+    --color-14: #333;
+    --color-15: rgb(45, 48, 83);
+    --color-16: #333;
+    
+    
+
+    --size-btn-collapse: 10.5rem;
+  
+    --time-animation: 0.3s;
+  
+    --box-shadow: 3px 7px 7px rgb(0 0 0 /22%);
+
+}
+@font-face {
+    font-family: 'miFuente';
+    src: url(../assets/fuentes/Breakfast.ttf);
+}
+

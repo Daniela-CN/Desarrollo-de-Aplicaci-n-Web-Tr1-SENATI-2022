@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    background-color: var(--color-12);
+}
+
+
+/* seccion */
+.contenedor-todo{
+    padding: 0 10%;
+    height: 100%;
+
+}
+.contenedor{
+    position: relative;
+    background: var(--color-12);
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0px 20px  rgba(0, 0, 0, 0.4); 
+
+}
+
+/* recibia el nombre */
+.contenedor h1{
+    color: var(--color-8);
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 48px;
+    justify-content: center;
+}
+
+/* gif */
+.contenedor-gif{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    box-shadow: 0 0px 5px  rgba(0, 0, 0, 0.6); 
+}
+
+.gif{
+
+    padding: 0;
+    width: 100%;
+}
+
+marquee{
+    background-color: var(--color-9);
+    padding: 10px 0;
+    color: var(--color-2);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
